@@ -8,7 +8,7 @@ const iconLight = document.getElementById("icon-light");
 const menuLi = document.querySelectorAll(".menu-li");
 
 const body = document.getElementById("main");
-const init = () => {
+const init = async () => {
   console.log({ menuLi });
   iconClose.addEventListener("click", () => {
     toggleMenu();
@@ -30,7 +30,17 @@ const init = () => {
     console.log({ li });
     li.addEventListener("click", () => toggleMenu());
   });
+
+  //
 };
+const checkDevice = () => {
+  const isMobile = window.innerWidth < 800;
+  console.log({ isMobile });
+  if (isMobile) {
+    rellax.destroy();
+  }
+};
+window.requestAnimationFrame(checkDevice);
 
 const toggleDarkMode = () => {
   const isDarkMode = iconDark?.className?.includes("active");
@@ -59,6 +69,7 @@ const toggleMenu = () => {
 };
 
 init();
+checkDevice();
 /*=============== REMOVE MENU MOBILE ===============*/
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/

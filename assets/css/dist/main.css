@@ -934,6 +934,9 @@ i {
   }
 }
 @media (max-width: 479px) {
+  .newsletter {
+    margin-top: 1em;
+  }
   .newsletter .box {
     flex-direction: column;
     max-width: 80%;
@@ -1031,6 +1034,12 @@ i {
   }
 }
 @media (max-width: 500px) {
+  .footer {
+    margin-top: 2em;
+  }
+  .footer .section {
+    padding-block: 2em 1em;
+  }
   .footer .box .footer-grid {
     grid-template-columns: 50% 40%;
   }
