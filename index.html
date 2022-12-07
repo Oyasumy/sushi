@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/dist/main.css" />
+
+    <!-- Get minor updates and patch fixes within a major version -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+    <title>Suki Sushi</title>
+  </head>
+  <body id="main">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <div class="nav-bar">
+        <!-- Left -->
+        <div class="logo">
+          <img src="./assets//img//favicon.png" alt="logo" srcset="" />
+          <p>Suki</p>
+        </div>
+        <!-- Right -->
+        <div class="right-side">
+          <!-- Icon menu -->
+          <div class="icon-menu" id="icon-menu">
+            <i class="ri-menu-4-line"></i>
+          </div>
+          <div class="link" id="menu">
+            <!-- Close Icon -->
+            <div class="icon" id="icon-close">
+              <i class="ri-close-line"></i>
+            </div>
+            <!-- List Menu -->
+            <ul>
+              <li>
+                <a data-scroll href="#home" class="menu-li">Home</a>
+              </li>
+              <li>
+                <a data-scroll href="#about" class="menu-li">AboutUs</a>
+              </li>
+              <li>
+                <a data-scroll href="#popular" class="menu-li">Popular</a>
+              </li>
+              <li>
+                <a data-scroll href="#recently" class="menu-li">Recently</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Switch Dark mode -->
+          <div class="icon-dark-mode">
+            <i class="ri-contrast-2-line" id="icon-dark"></i>
+            <i class="ri-sun-line active" id="icon-light"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="container">
+          <!-- Title -->
+          <div class="content-home flex-center rellax" data-rellax-desktop-speed="-3" data-rellax-zindex="5">
+            <p class="section__title">Enjoy Delicious</p>
+            <div class="sub-title flex-center">
+              <img src="./assets/img/home-sushi-title.png" alt="img sub" srcset="" />
+              <p class="section__title">Sushi Food</p>
+            </div>
+            <p class="home-description">
+              Enjoy a good dinner with the best<br />
+              dishes in the restaurant and improve<br />
+              your day.
+            </p>
+            <!-- Button order -->
+            <button class="btn-order">
+              <div class="flex-center">
+                <p>Order Now</p>
+                <i class="ri-arrow-right-line"></i>
+              </div>
+            </button>
+          </div>
+          <!-- Image -->
+          <div class="image-home rellax img-main" data-rellax-desktop-speed="-2">
+            <img src="./assets/img/home-sushi-rolls.png" alt="img home" srcset="" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="box">
+          <div class="img-about rellax" data-rellax-desktop-speed="-1">
+            <img src="./assets//img/about-sushi.png" alt="" srcset="" />
+          </div>
+          <!-- content -->
+          <div class="content rellax content-about" data-rellax-desktop-speed="-2">
+            <p class="section__subtitle sub-title">About Us</p>
+            <div class="group-title">
+              <div class="line">
+                <p class="section__title title">We Provide</p>
+                <img src="./assets//img/about-sushi-title.png" alt="about-sushi-title" srcset="" />
+              </div>
+              <p class="section__title title">Healthy Food</p>
+            </div>
+            <p class="description">Food comes to us from our relatives, whether they have wings or roots. This is how we consider food, it also has a culture. It has a history that passes from generation to generation.</p>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <div class="box">
+          <!-- content -->
+          <div class="content rellax" data-rellax-desktop-speed="-1" data-rellax-zindex="5">
+            <p class="section__subtitle sub-title">The Best Food</p>
+            <p class="section__title title">Popular Dishes</p>
+          </div>
+          <!-- list dished -->
+          <div class="list-dished">
+            <!-- 1 -->
+            <div class="item rellax" data-rellax-desktop-speed="-.3">
+              <img src="./assets/img/popular-onigiri.png" alt="popular-onigiri" srcset="" />
+
+              <p class="title section__title">Onigiri</p>
+              <p class="sub-title section__title">Japanese Dish</p>
+              <p class="price section__title">$10.99</p>
+              <!-- add to cart -->
+              <div class="icon-add-cart flex-center">
+                <i class="ri-shopping-bag-line"></i>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="item rellax" data-rellax-desktop-speed="-.5">
+              <img src="./assets/img/popular-spring-rols.png" alt="popular-onigiri" srcset="" />
+
+              <p class="title section__title">Spring Rolls</p>
+              <p class="sub-title section__title">Japanese Dish</p>
+              <p class="price section__title">$15.99</p>
+              <!-- add to cart -->
+              <div class="icon-add-cart flex-center">
+                <i class="ri-shopping-bag-line"></i>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="item rellax" data-rellax-desktop-speed="-.7">
+              <img src="./assets/img/popular-sushi-rolls.png" alt="popular-onigiri" srcset="" />
+
+              <p class="title section__title">Sushi Rolls</p>
+              <p class="sub-title section__title">Japanese Dish</p>
+              <p class="price section__title">$19.99</p>
+              <!-- add to cart -->
+              <div class="icon-add-cart flex-center">
+                <i class="ri-shopping-bag-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== RECENTLY ====================-->
+      <section class="recently section" id="recently">
+        <div class="container">
+          <!-- Title -->
+          <div class="content-home flex-center rellax" data-rellax-desktop-speed=".6">
+            <p class="section__subtitle title">Recently Added</p>
+
+            <p class="section__title">
+              Sushi Samurai <br />
+              Salmón Cheese
+            </p>
+
+            <p class="home-description">
+              Take a look at what's new. <br />And do not deprive yourself of a good meal, enjoy<br />
+              and be happy.
+            </p>
+            <!-- Button order -->
+            <button class="btn-order">
+              <div class="flex-center">
+                <p>Order Now</p>
+                <i class="ri-arrow-right-line"></i>
+              </div>
+            </button>
+          </div>
+          <!-- Image -->
+          <div class="image-home rellax" data-rellax-desktop-speed="-.5">
+            <img src="./assets/img/recently-salmon-sushi.png" alt="img home" srcset="" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEWSLETTER ====================-->
+      <section class="newsletter section flex-center">
+        <div class="box flex-center rellax" data-rellax-desktop-speed="-.5">
+          <div class="img-news flex-center">
+            <img src="./assets/img/newsletter-sushi.png" alt="" srcset="" />
+          </div>
+          <!-- content -->
+          <div class="content">
+            <p class="section__subtitle title">Newsletter</p>
+
+            <p class="section__title">
+              Subscribe For <br />
+              Offer Updates
+            </p>
+
+            <!-- Contact -->
+            <div class="contact">
+              <input type="text" placeholder="Enter email" />
+              <button class="btn-submit flex-center" onclick="submit()">
+                <p>Subscribe</p>
+                <i class="ri-send-plane-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== FOOTER ====================-->
+      <footer class="footer flex-center">
+        <div class="section">
+          <div class="box">
+            <div class="grid footer-grid">
+              <!-- 1 -->
+              <div class="col">
+                <div class="footer-title footer-logo">
+                  <p>Sushi</p>
+                </div>
+                <div class="footer-sub description">
+                  <p>
+                    Food for the body is not <br />
+                    enough. There must be food <br />
+                    for the soul.
+                  </p>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="col">
+                <div class="footer-title">
+                  <p>Main Menu</p>
+                </div>
+                <div class="footer-sub group-link">
+                  <div class="link">
+                    <a href="#">About</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Menus</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Offer</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Events</a>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="col">
+                <div class="footer-title">
+                  <p>Information</p>
+                </div>
+                <div class="footer-sub group-link">
+                  <div class="link">
+                    <a href="#">Contact</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Order & Returns</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Videos</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Reservation</a>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="col">
+                <div class="footer-title">
+                  <p>Address</p>
+                </div>
+                <div class="footer-sub group-link">
+                  <div class="link">
+                    <a href="#">Av. Hacienda 1234</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Lima 4321, Perú </a>
+                  </div>
+                  <div class="link">
+                    <a href="#">9AM - 11PM</a>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="col">
+                <div class="footer-title">
+                  <p>Social Media</p>
+                </div>
+                <div class="footer-sub group-link">
+                  <div class="link">
+                    <a href="#">Av. Hacienda 1234</a>
+                  </div>
+                  <div class="link">
+                    <a href="#">Lima 4321, Perú </a>
+                  </div>
+                  <div class="link">
+                    <a href="#">9AM - 11PM</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- copyright -->
+          <div class="footer-copy flex-center">
+            <p>&#169; Copyright Bedimcode. All rights reserved</p>
+            <div class="group-pay">
+              <img src="./assets//img//footer-card-1.png" alt="card1" srcset="" />
+              <img src="./assets//img//footer-card-2.png" alt="card2" srcset="" />
+              <img src="./assets//img//footer-card-3.png" alt="card3" srcset="" />
+              <img src="./assets//img//footer-card-4.png" alt="card4" srcset="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/smoothSrcoll.js"></script>
+    <script src="./assets/js/toast.js"></script>
+    <script src="./assets/js/relax.js"></script>
+    <script src="./assets/js/gsap.js"></script>
+  </body>
+</html>
