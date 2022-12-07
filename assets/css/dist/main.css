@@ -618,7 +618,7 @@ i {
 }
 .about .box .content .group-title .line img {
   max-width: 30px;
-  height: fit-content;
+  height: 30px;
   margin-left: 5px;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
